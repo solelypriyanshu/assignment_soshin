@@ -1,56 +1,112 @@
-# Getting Started with Create React App
+# Assignment Soshin
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application built as part of an assignment for Soshin. The application includes a responsive webpage with a navbar and a set of cards displayed on the homepage. Each card contains a title and description.
+
+## Features
+
+- **Responsive Design**: The website layout adjusts based on the screen size.
+- **Cards**: The homepage displays a set of cards with titles and descriptions.
+- **Reusable Components**: Components like `Navbar` and `Card` are created for reuse across the application.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **Styled-components**: For styling components.
+- **React Router**: To manage the navigation between different views.
+
+## Installation
+
+To set up the project locally, follow the steps below:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/solelypriyanshu/assignment_soshin.git
+   ```
+
+2. **Navigate to the project folder**:
+
+   ```bash
+   cd assignment_soshin
+   ```
+
+3. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run the following scripts:
 
-### `npm start`
+- **Start**: Starts the development server.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  ```bash
+  npm start
+  ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Build**: Creates a production build of the app.
 
-### `npm test`
+  ```bash
+  npm run build
+  ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Test**: Runs the test suite.
 
-### `npm run build`
+  ```bash
+  npm test
+  ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Eject**: Removes the `create-react-app` configuration and allows custom configurations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ```bash
+  npm run eject
+  ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+The project contains the following components:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `src/`
+- **`components/`**: Contains reusable components such as `Card` and `Navbar`.
+  - `Card.js`: Displays a single card with a title and description.
+  - `Navbar.js`: Displays the navigation bar.
+- **`pages/`**: Contains the page views.
+  - `Home.js`: Displays a list of cards on the homepage.
+- **`App.js`**: The main entry point of the app, handling routing and layout.
+- **`index.js`**: Renders the app to the DOM.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `public/`
+- Contains the HTML file and other static assets.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Once the app is running, you will see a responsive webpage with the following layout:
 
-## Learn More
+- A **navbar** at the top of the page with the title "My Responsive Webpage".
+- Below the navbar, a set of **cards** is displayed, each with a title and a description.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The cards are generated dynamically from the `cardsData` array in the `Home.js` component.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Build the app using:
 
-### Code Splitting
+   ```bash
+   npm run build
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Explanation:
 
-### Analyzing the Bundle Size
+- **Project Overview**: A summary of what the project is about.
+- **Technologies Used**: Lists the technologies used in your project.
+- **Installation Instructions**: Clear steps to set up the project locally.
+- **Scripts**: Describes available npm scripts.
+- **Project Structure**: Explains the file structure of your project.
+- **Usage**: Explains how the project works and what it looks like.
+- **Deployment**: Instructions for deploying the app to GitHub Pages.
+- **License**: A standard placeholder for licensing (MIT license).
 
+<<<<<<< HEAD
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
 ### Making a Progressive Web App
@@ -66,3 +122,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+This README should give a good starting point for users or developers interacting with your project.
+>>>>>>> 23ab787c22a124997d5eabf57d0526879c4df2d9
