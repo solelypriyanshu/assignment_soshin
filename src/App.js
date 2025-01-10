@@ -1,15 +1,8 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import "./App.css";
+import React from 'react';
+import Dashboard from './pages/Dashboard';
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Home />
-    </div>
-  );
-}
+const App = () => {
+  return <Dashboard />;
+};
 
 export default App;

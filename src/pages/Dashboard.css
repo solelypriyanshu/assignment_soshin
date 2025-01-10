@@ -1,0 +1,38 @@
+/* Recent Activity and Schedule */
+.activity-card {
+  border: none;
+  border-radius: 10px;
+  background-color: #0d6efd;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.activity-card p,
+.activity-card small {
+  font-size: 14px;
+}
+
+.schedule-card {
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.schedule-card p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.schedule-card small {
+  color: #6c757d;
+  font-size: 12px;
+}

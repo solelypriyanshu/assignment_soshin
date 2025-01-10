@@ -1,12 +1,22 @@
 body {
-  margin: 0;
+  background-color: #f8f9fa;
   font-family: Arial, sans-serif;
 }
 
-.App {
-  text-align: center;
+.nav-link.active {
+  background-color: #0d6efd;
+  color: #fff !important;
 }
-/* Responsive Design */
+
+.card-title {
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+
 @media (max-width: 768px) {
   .home {
     flex-direction: column;
