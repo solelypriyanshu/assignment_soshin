@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/assignment_soshin/static/css/main.fc84a7a8.css",
+    "main.js": "/assignment_soshin/static/js/main.a1369652.js",
+    "static/js/453.11620396.chunk.js": "/assignment_soshin/static/js/453.11620396.chunk.js",
+    "index.html": "/assignment_soshin/index.html",
+    "main.fc84a7a8.css.map": "/assignment_soshin/static/css/main.fc84a7a8.css.map",
+    "main.a1369652.js.map": "/assignment_soshin/static/js/main.a1369652.js.map",
+    "453.11620396.chunk.js.map": "/assignment_soshin/static/js/453.11620396.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc84a7a8.css",
+    "static/js/main.a1369652.js"
+  ]
+}
