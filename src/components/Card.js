@@ -1,12 +1,13 @@
-import React from 'react';
-import './Card.css';
+// src/components/Card.js
+import React from "react";
+import "./Card.css";
 
-const Card = ({ title, value, description }) => {
+const Card = ({ title, value, description, isHighlighted }) => {
   return (
-    <div className="card-custom">
+    <div className={`card ${isHighlighted ? "highlighted" : ""}`}>
       <h5>{title}</h5>
-      <h2>{value}</h2>
-      <p>{description}</p>
+      <p className="value">{value}</p>
+      <p className="description">{description}</p>
     </div>
   );
 };

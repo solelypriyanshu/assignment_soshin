@@ -1,47 +1,38 @@
-import React from 'react';
-import Card from '../components/Card';
-import Navbar from '../components/Navbar';
-import Sidebar from '../components/Sidebar';
-import './Dashboard.css';
+import React from "react";
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
+import Card from "../components/Card";
+import "./Dashboard.css";
 
 const Dashboard = () => {
   return (
-    <div className="d-flex">
+    <div className="dashboard">
       <Sidebar />
-      <div className="flex-grow-1">
+      <div className="dashboard-content">
         <Navbar />
-        <div className="container mt-4">
-          {/* Top Cards */}
-          <div className="row mb-4">
-            <div className="col-md-3">
-              <Card title="Available Position" value="24" description="4 Urgently needed" />
+        <div className="dashboard-main">
+          <div className="dashboard-cards">
+            <Card title="Available Position" value="24" description="4 Urgently needed" />
+            <Card title="Job Open" value="10" description="4 Active hiring" />
+            <Card title="New Employees" value="24" description="4 Departments" />
+            <Card title="Talent Request" value="16" description="+5% Past month" />
+          </div>
+          <div className="dashboard-lower">
+            <div className="activity-card">
+              <h5>Recent Activity</h5>
+              <p>You Posted a New Job</p>
+              <small>Kindly check the requirements and terms...</small>
             </div>
-            <div className="col-md-3">
-              <Card title="Job Open" value="10" description="4 Active hiring" />
-            </div>
-            <div className="col-md-3">
-              <Card title="New Employees" value="24" description="4 Department" />
-            </div>
-            <div className="col-md-3">
-              <Card title="Talent Request" value="16" description="+5% Past month" />
+            <div className="schedule-card">
+              <h5>Upcoming Schedule</h5>
+              <p>Review candidate applications</p>
+              <small>Today, 11:30 AM</small>
             </div>
           </div>
-          {/* Recent Activity and Schedule */}
-          <div className="row">
-            <div className="col-md-8">
-              <h5>Recently Activity</h5>
-              <div className="card p-3 shadow-sm">
-                <p>You Posted a New Job</p>
-                <small>Kindly check the requirements...</small>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <h5>Upcoming Schedule</h5>
-              <div className="card p-3 shadow-sm">
-                <p>Review candidate applications</p>
-                <small>Today, 11:30 AM</small>
-              </div>
-            </div>
+          <div className="announcement-section">
+            <h5>Announcements</h5>
+            <p>Outing schedule for every department</p>
+            <p>Meeting HR Department</p>
           </div>
         </div>
       </div>

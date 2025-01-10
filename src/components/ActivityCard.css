@@ -1,0 +1,37 @@
+/* src/styles/ActivityAndSchedule.css */
+.activity-card {
+    border-radius: 12px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 20px;
+    box-shadow: 0px 2px 5px var(--card-shadow);
+  }
+  
+  .activity-card h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .activity-card p,
+  .activity-card small {
+    font-size: 14px;
+  }
+  
+  .schedule-card {
+    border-radius: 12px;
+    background-color: var(--white);
+    padding: 20px;
+    box-shadow: 0px 2px 5px var(--card-shadow);
+  }
+  
+  .schedule-card h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--dark-gray);
+  }
+  
+  .schedule-card small {
+    font-size: 12px;
+    color: var(--dark-gray);
+  }
+  
